@@ -93,6 +93,32 @@ section h3 {
   color: #1a237e;
 }
 
+.activity-card div.participants {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e3f2fd; /* Light blue background for participants section */
+  border: 1px solid #90caf9; /* Border matching the background */
+  border-radius: 5px;
+}
+
+.activity-card div.participants strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #0d47a1; /* Dark blue for the "Participants" label */
+}
+
+.activity-card div.participants ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.activity-card div.participants ul li {
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
